@@ -20,22 +20,18 @@
   3. 'mirror': First center the RGB image, and pad the empty border regions with the reflection of the image itself. In essence, with this method, you increase the size of your input.
 - bar_plot.ipynb: <br>
   To plot out the bars shown in the report.
-- Load_model.ipynb: <br>
+- fine_plotting.ipynb: <br>
+  Plot and save the images in high resolution for the report.
   
 - simple_geometry.ipynb: <br>
-  
-- test_hyperparam.ipynb: <br>
-  
-- test_implementation.ipynb: <br>
-  
-- test_ob_implementation.ipynb: <br>
+  data preprocessing, training with different hyper-parameters, testing and fine plotting of this simple geometry dataset
   
 - test_run_EPFL.ipynb: <br>
-  
+  training and testing with indicated upscaling factor (x8, x40, x90) for EPFL nadir
 - test_run_EPFL_oblique.ipynb: <br>
-  
+  training and testing with indicated upscaling factor (x8, x40, x90) for EPFL oblique
 - test_run_comballaz.ipynb: <br>
-  
+  training and testing with indicated upscaling factor (x8, x40, x90) for comballaz, both nadir and oblique in the same notebook
 
 
 
