@@ -1,5 +1,4 @@
 # TOPO_final
 Semester Project final documentation Fall 2021
 
-
-PMBA pretrained net too large, need to download to local, but it is already trasfered to beast
+Here we just present the hierarchy of this repository. In each folder representing the 3 models, there are respective Readme files illustrating the usage of the model.
