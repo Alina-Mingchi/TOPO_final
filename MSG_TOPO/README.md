@@ -8,7 +8,6 @@
 
 
 - TEST_simple_geometry.ipynb
+  test on the simple geometry dataset with fine plotting.
 - TEST_topo.ipynb
-- example.ipynb
-- loss_example.ipynb
-- train_topo_small.ipynb
+  first test only one image, then implement a pipeline to automatically analyze all the images in the indicated data folder. Some uncommenting is needed if want to switch data folder.
