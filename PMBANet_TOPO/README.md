@@ -7,6 +7,8 @@
   test of TOPO dataset
 - Test_simple_geometry.ipynb: <br>
   test of simple geometry dataset
+- fine_plotting_PMBA.ipynb: <br>
+  Plotting for the images used in the report.
 
 - base_networks.py: <br>
   Backbone of the neral network, original implementation from the author of this paper, however, due to lack of documentation, a bit comfusing.
