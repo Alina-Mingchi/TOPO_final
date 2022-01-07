@@ -6,6 +6,3 @@ PMBA pretrained net too large, need to download to local, but it is already tras
 
 
 
-
-## The proposed progressive multi-branch aggregation depth super-resolution framework
-![](https://github.com/Sunbaoli/PMBANet_DSR/blob/master/mainnet.png)
