@@ -15,9 +15,9 @@
 
 - get_upscaling_factor.py: <br>
   function to get the scaling factor, this function gets the sizes of both the high resolution RGB image and the low resolution depth image. Then according to the options the user give, automatically get the scaling factor, and adjust the size of the RGB guide image accordingly. There are three options possible: 
-  1.'center-crop': First center the RGB image, and crop, so that you get rid of the borders. In essence, with this method, you reduce the size of your input
-  2.'zero-pad': First center the RGB image, and pad the empty border regions with 0. In essence, with this method, you increase the size of your input.
-  3.'mirror': First center the RGB image, and pad the empty border regions with the reflection of the image itself. In essence, with this method, you increase the size of your input.
+  1. 'center-crop': First center the RGB image, and crop, so that you get rid of the borders. In essence, with this method, you reduce the size of your input
+  2. 'zero-pad': First center the RGB image, and pad the empty border regions with 0. In essence, with this method, you increase the size of your input.
+  3. 'mirror': First center the RGB image, and pad the empty border regions with the reflection of the image itself. In essence, with this method, you increase the size of your input.
 - bar_plot.ipynb: <br>
   To plot out the bars shown in the report.
 - Load_model.ipynb: <br>
@@ -50,5 +50,5 @@ from get_upscaling_factor import get_factor
 __guide_imgs__ could be either 3-dim or 4-dim, but with other dimension, you are going to see an error message.
 __source_imgs__ are mainly used to extract the low resolution size.
 __center-crop__ is one of the three options, the other two are __zero-pad__, and __mirror__.
-__GSRPT__ is the indication of GSRPT specific, since the placement of the channel is different from the other two models
+__GSRPT__ is the indication of GSRPT specific, since the placement of the channel is different from the other two models.
 
