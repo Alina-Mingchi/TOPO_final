@@ -47,8 +47,8 @@ from get_upscaling_factor import get_factor
 ## define parameters through function
 [factor,new_guide]= get_factor(guide_imgs,source_imgs,'center-crop','GSRPT')
 ```
-__guide_imgs__ could be either 3-dim or 4-dim, but with other dimension, you are going to see an error message.
-__source_imgs__ are mainly used to extract the low resolution size.
-__center-crop__ is one of the three options, the other two are __zero-pad__, and __mirror__.
+__guide_imgs__ could be either 3-dim or 4-dim, but with other dimension, you are going to see an error message. <br>
+__source_imgs__ are mainly used to extract the low resolution size. <br>
+__center-crop__ is one of the three options, the other two are __zero-pad__, and __mirror__. <br>
 __GSRPT__ is the indication of GSRPT specific, since the placement of the channel is different from the other two models.
 
